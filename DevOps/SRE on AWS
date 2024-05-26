@@ -1,0 +1,85 @@
+What is DevOps?
+
+DevOps, a potent blend of software development (Dev) and IT operations (Ops), has revolutionized the tech landscape.Traditionally, development and operations teams operated in two different environments, leading to communication gaps and slow releases.
+
+Under a DevOps model, development and operations teams are no longer “siloed.”
+
+In some DevOps models, quality assurance and security teams may also become more tightly integrated with development and operations and throughout the application lifecycle. When security is the focus of everyone on a DevOps team, this is sometimes referred to as DevSecOps.
+
+Why DevOps?
+
+Before we get deep into what DevOps is and all the revolutions it brought with us, first understand why DevOps in the first place. and Before DevOps, there were two development models: Waterfall and Agile Method.
+
+Waterfall method
+
+The waterfall model uses a logical progression of SDLC steps for a project, similar to the direction water flows over the edge of a cliff. It sets distinct endpoints or goals for each phase of development. Those endpoints or goals can't be revisited after their completion.’
+
+Project teams and project managers use the waterfall model to achieve goals based on the needs of their business. The model is used in many different project management contexts, such as in construction, manufacturing, IT and software development.
+
+Drawbacks of the waterfall model:
+
+It’s difficult to make changes to the previous stage
+Not recommended for large-sized projects
+Developers and testers don’t work together (which can result in a lot of bugs at the end)
+Not recommended for projects that will likely have changing requirements
+
+
+2. Agile Model
+
+The meaning of Agile is swift or versatile."Agile process model" refers to a software development approach based on iterative development. Agile methods break tasks into smaller iterations, or parts do not directly involve long term planning. The project scope and requirements are laid down at the beginning of the development process. Plans regarding the number of iterations, the duration and the scope of each iteration are clearly defined in advance.
+
+Agile is an approach in software development where each project splits into multiple iterations. As a result, at the end of each iteration, a software product is delivered. Each iteration lasts about one to three weeks. Every iteration involves functional teams working simultaneously on various areas, such as:
+
+Requirements
+Design
+Development
+Release
+With DevOps, there is continuous integration between deployment of code and the testing of it. Near real-time monitoring and immediate feedback through a DevOps continuous monitoring tool enables both the developer and operations team work together.
+
+SRE tools setup on AWS
+
+DevOps is a culture, the right stack of tools makes it possible to implement DevOps successfully. At its core and perhaps the most remarkable concept that the DevOps approach ever brought is the collaboration between the software development and operations teams. Also and importantly, the DevOps approach emphasis is on the automation of software development processes like build, test, incident detection and response, release, and others to yield a faster time-to-market, high-quality products, and reduced failures and rollbacks of software/software features.
+
+Git (GitLab, GitHub, Bitbucket)
+
+Git DevOps tool is easy to implement as it is compatible with most protocols including HTTP, SSH, and FTP. It offers the best advantage for non-linear shared-repository development projects, unlike most other centralized version control tools. This makes it a good deal for mission-critical software.
+
+Key SRE Tools on AWS:
+
+1. Infrastructure as Code (IaC):
+
+Terraform: Manages and provisions infrastructure across multiple cloud providers, including AWS.
+
+AWS CloudFormation: AWS-native IaC tool for provisioning and managing AWS resources.
+
+2. Continuous Integration and Delivery (CI/CD):
+
+AWS CodePipeline: Fully managed service for building, testing, and deploying code.
+
+AWS CodeBuild: Builds and tests code, integrating with source control repositories.
+
+AWS CodeDeploy: Automates code deployments to instances, Amazon ECS, or AWS Lambda.
+
+3. Monitoring and Alerting:
+
+Amazon CloudWatch: Monitors AWS resources and applications, collecting and analyzing metrics and logs.
+
+AWS X-Ray: Analyzes and debugs distributed applications, tracing requests across multiple services.
+
+4. Incident Management:
+
+PagerDuty: Integrates with AWS services to automate incident response and notify on-call engineers.
+
+Opsgenie: Similar to PagerDuty, provides incident management and alert routing.
+
+5. Configuration Management:
+
+AWS OpsWorks: Manages configuration of servers and applications using Chef and Puppet.
+
+Ansible: Automates configuration management tasks across servers and cloud environments.
+
+6. Logging and Tracing:
+
+Amazon CloudWatch Logs: Centralized logging service for collecting and storing logs from AWS services and applications.
+
+AWS X-Ray: As mentioned earlier, also provides tracing capabilities for distributed applications.
